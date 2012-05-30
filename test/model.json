@@ -1,0 +1,29 @@
+
+{
+    "entities": [
+        {
+            "name": "customer",
+            "setName": "customers",
+            "descriptor": "Customer",
+            "setDescriptor": "Customers",
+            "properties": [
+                { "name": "id", "title": "Id" },
+                { "name": "name", "title": "Name" }
+            ]
+        }
+        ,
+        {
+            "name": "order",
+            "setName": "orders",
+            "descriptor": "Order",
+            "setDescriptor": "Orders",
+            "properties": [
+                { "name": "id", "title": "Id" },
+                { "name": "description", "title": "Description" },
+                { "name": "date", "title": "Date" },
+                { "name": "customerId", "title": "Customer", "reference": "customer" }
+            ]
+        }
+    ]
+}
+
