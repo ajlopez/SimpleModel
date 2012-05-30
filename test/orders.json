@@ -1,0 +1,9 @@
+[
+    { "id": 1, "description": "Order #1", "date": "2012-05-01", "customerId": 1 },
+    { "id": 2, "description": "Order #2", "date": "2012-05-05", "customerId": 1 },
+    { "id": 3, "description": "Order #3", "date": "2012-05-10", "customerId": 1 },
+    { "id": 4, "description": "Order #1", "date": "2012-05-01", "customerId": 2 },
+    { "id": 5, "description": "Order #2", "date": "2012-05-05", "customerId": 2 },
+    { "id": 6, "description": "Order #3", "date": "2012-05-10", "customerId": 2 }
+]
+
