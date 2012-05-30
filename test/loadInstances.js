@@ -13,3 +13,5 @@ assert.ok(entity.instances().id(1));
 assert.equal(entity.instances().id(2).name, 'Apple');
 assert.equal(entity.instances().name('Google').id, 3);
 
+assert.equal(entity.instances().maxId(), 3);
+
